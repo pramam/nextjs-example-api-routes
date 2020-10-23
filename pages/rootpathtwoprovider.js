@@ -1,4 +1,4 @@
-import Provider from '../components/Provider'
+import Provider from '../components/provider'
 
 export default function RootPathTwoProvider() {
 
