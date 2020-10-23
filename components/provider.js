@@ -16,7 +16,15 @@ export default function Provider(props) {
 
     if (error)
         return (
-            <div> {providerName} Failed to Load {JSON.stringify(error)}</div>
+            <div>
+                <Link href="/" as={"/"}>
+                    <a>
+                        Home
+                </a>
+                </Link>
+                <h4> {providerName} Failed to Load </h4>
+                {JSON.stringify(error)}
+            </div>
         )
     if (!data)
         return (<div>Loading...</div>)
