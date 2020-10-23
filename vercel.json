@@ -1,0 +1,13 @@
+{
+    "functions": {
+        "pages/api/one.js": {
+            "includeFiles": "data/static/provider/onedata.json5"
+        },
+        "pages/api/subapi/[...relativePathThree].js": {
+            "includeFiles": "data/static/provider/A/**/*.json5"
+        },
+        "pages/api/[...rootPathTwo].js": {
+            "includeFiles": "data/twodata.json5"
+        }
+    }
+}

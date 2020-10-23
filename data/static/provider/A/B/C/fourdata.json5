@@ -1,0 +1,5 @@
+{
+    name: 'Four Provider Data',
+    apipath: 'pages/api/subapi/[...relativePathThree].js',
+    datapath: 'data/static/provider/A/B/C/fourdata.json5'
+}

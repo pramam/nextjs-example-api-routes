@@ -1,0 +1,5 @@
+{
+    name: 'One Provider Data',
+    apipath: 'pages/api/one.js',
+    datapath: 'data/static/provider/onedata.json5'
+}

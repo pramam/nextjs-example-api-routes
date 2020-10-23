@@ -1,1 +1,1 @@
-This is a starter template for [Learn Next.js](https://nextjs.org/learn).
+This is a test repo to test catch-all API routes and data copying using [includeFiles](https://vercel.com/docs/configuration#project/functions) in vercel.json in [next.js](https://nextjs.org/learn).
