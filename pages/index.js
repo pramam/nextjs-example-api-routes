@@ -28,6 +28,7 @@ export default function Home() {
             <th>Example</th>
             <th>API Route</th>
             <th>Path to data</th>
+            <th>includeFiles=</th>
           </tr>
           <tr>
             <td>
@@ -39,6 +40,9 @@ export default function Home() {
             </td>
             <td>
               pages/api/one.js
+            </td>
+            <td>
+              data/static/provider/onedata.json5
             </td>
             <td>
               data/static/provider/onedata.json5
@@ -59,6 +63,9 @@ export default function Home() {
             <td>
               data/twodata.json5
             </td>
+            <td>
+              data/twodata.json5
+            </td>
           </tr>
 
           <tr>
@@ -74,6 +81,9 @@ export default function Home() {
             </td>
             <td>
               data/static/provider/A/B/threedata.json5
+            </td>
+            <td>
+              data/static/provider/A/**/*.json5
             </td>
           </tr>
 
@@ -91,6 +101,9 @@ export default function Home() {
             <td>
               data/static/provider/A/B/C/fourdata.json5
             </td>
+            <td>
+              data/static/provider/A/**/*.json5
+            </td>
           </tr>
 
           <tr>
@@ -106,6 +119,9 @@ export default function Home() {
             </td>
             <td>
               data/static/provider/A/B/C/@D/fivedata.json5
+            </td>
+            <td>
+              data/static/provider/A/**/*.json5
             </td>
           </tr>
 
@@ -123,6 +139,9 @@ export default function Home() {
             <td>
               data/static/sixdata.json5
             </td>
+            <td>
+              -
+            </td>
           </tr>
 
           <tr>
@@ -138,6 +157,9 @@ export default function Home() {
             </td>
             <td>
               data2/static/provider/A/B/sevendata.json5
+            </td>
+            <td>
+              data2/**
             </td>
           </tr>
 
