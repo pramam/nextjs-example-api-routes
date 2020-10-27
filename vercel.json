@@ -8,6 +8,9 @@
         },
         "pages/api/[...rootPathTwo].js": {
             "includeFiles": "data/twodata.json5"
+        },
+        "pages/api/subapi2/[...allDataSeven].js": {
+            "includeFiles": "data2/**"
         }
     }
 }

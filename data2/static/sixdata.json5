@@ -1,0 +1,5 @@
+{
+    name: 'Six Provider Data',
+    apipath: 'pages/api/six.js',
+    datapath: 'data/static/sixdata.json5'
+}

@@ -125,6 +125,22 @@ export default function Home() {
             </td>
           </tr>
 
+          <tr>
+            <td>
+              <Link href="/pages/alldatasevenprovider" as={"/alldatasevenprovider"}>
+                <a>
+                  Example Seven (added 10/26/2020)
+                </a>
+              </Link>
+            </td>
+            <td>
+              pages/api/subapi2/[...allDataSeven].js
+            </td>
+            <td>
+              data2/static/provider/A/B/sevendata.json5
+            </td>
+          </tr>
+
         </table>
 
       </main>

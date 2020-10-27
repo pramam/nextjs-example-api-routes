@@ -1,0 +1,5 @@
+{
+    name: 'Two Provider Data',
+    apipath: 'pages/api/[...rootPathTwo].js',
+    datapath: 'data/twodata.json5'
+}

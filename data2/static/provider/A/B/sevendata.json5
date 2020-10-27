@@ -1,0 +1,5 @@
+{
+    name: 'Seven Provider Data',
+    apipath: 'pages/api/subapi2/[...allDataSeven].js',
+    datapath: 'data2/static/provider/A/B/sevendata.json5'
+}
