@@ -7,7 +7,7 @@ export default function RelativePathFourProvider() {
         <Provider
             providerName="Relative Path Four Provider"
             swrpath="/api/subapi/data/static/provider/A/B/C/fourdata.json5"
-            comment="This tests includePath=data/static/provider/A/**/*.json5 in vercel.json"
+            comment="This tests `includeFiles=data/static/provider/A/**/*.json5` for `../A/B/C/fourdata.json5`"
         />
     )
 }

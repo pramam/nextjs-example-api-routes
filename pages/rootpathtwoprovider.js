@@ -7,6 +7,7 @@ export default function RootPathTwoProvider() {
         <Provider
             providerName="Root Path Two Provider"
             swrpath="/api/data/twodata.json5"
+            comment="This tests a simple path hardcoded in vercel.json"
         />
     )
 }

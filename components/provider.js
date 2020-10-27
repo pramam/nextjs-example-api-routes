@@ -22,6 +22,7 @@ export default function Provider(props) {
                         Home
                 </a>
                 </Link>
+                <h4> {comment} </h4>
                 <h4> {providerName} Failed to Load </h4>
                 {JSON.stringify(error)}
             </div>
